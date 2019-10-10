@@ -1,0 +1,60 @@
+<html>
+<head>
+ <script>
+     var a=10,b=2;
+     document.write("Addition="+(a+b)+"<br>");
+     document.write("Sub="+(a-b)+"<br>");
+     document.write("Division="+(a/b)+"<br>");
+     document.write("Multiplication="+(a*b)+"<br>");
+ </script>
+</head>
+<br><br>
+<body>
+        Enter First Number : 
+        <input type="text" id="Text1" name="TextBox1">
+        <br><br>
+        Enter Second Number : 
+        <input type="text" id="Text2" name="TextBox2">
+        <br><br>
+     <input type="button" name="add" value="Addition" onclick="add_number()">&nbsp;&nbsp;
+     <input type="button" name="sub" value="Substraction" onclick="sub_number()">&nbsp;&nbsp;
+     <input type="button" name="mult" value="Multiplication" onclick="mult_number()">&nbsp;&nbsp;
+     <input type="button" name="div" value="Division" onclick="div_number()"><br>
+     <br>
+     Result : 
+        <input type="text" id="txtresult" name="TextBox3">
+        <br>
+
+    <script type="text/javascript">
+        function add_number(){
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number + second_number;
+            alert(result);
+            document.getElementById("txtresult").value = result; 
+        }
+        function sub_number(){
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number-second_number;
+            alert(result);
+            document.getElementById("txtresult").value = result; 
+        }
+        function mult_number(){
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number*second_number;
+            alert(result);
+            document.getElementById("txtresult").value = result; 
+        }
+        function div_number(){
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number/second_number;
+            alert(result);
+            document.getElementById("txtresult").value = result; 
+        }
+    </script>
+    
+</body>
+</html>
