@@ -10,7 +10,7 @@ var a=10;
 a+=10;
 console.log("a="+a);
 
-var b20;
+var b=20;
 b-=5;
 console.log("b="+b);
 
