@@ -5,7 +5,6 @@ var lastName='jonas';
 //double quotes
 
 var str="I am \"double quoted\" string inside \"double quotes\"";
-
 console.log(str);
 
 //single quotes
