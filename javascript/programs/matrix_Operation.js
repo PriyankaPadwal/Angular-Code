@@ -5,7 +5,7 @@ function addMatrices(m1, m2) {
         for (var j = 0; j < m2[0].length; j++) {
             var sum = 0;
             for (var k = 0; k < m1[0].length; k++) {
-                sum += m1[i][k] + m2[k][j];
+                sum = m1[i][k] + m2[k][j];
             }
             result[i][j] = sum;
         }
@@ -20,7 +20,7 @@ function subMatrices(m1, m2) {
         for (var j = 0; j < m2[0].length; j++) {
             var sum = 0;
             for (var k = 0; k < m1[0].length; k++) {
-                sum += m1[i][k] - m2[k][j];
+                sum = m1[i][k] - m2[k][j];
             }
             result[i][j] = sum;
         }
@@ -35,7 +35,7 @@ function multiplyMatrices(m1, m2) {
         for (var j = 0; j < m2[0].length; j++) {
             var sum = 0;
             for (var k = 0; k < m1[0].length; k++) {
-                sum += m1[i][k] * m2[k][j];
+                sum = m1[i][k] * m2[k][j];
             }
             result[i][j] = sum;
         }
