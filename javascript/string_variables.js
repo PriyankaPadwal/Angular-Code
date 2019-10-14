@@ -2,6 +2,7 @@ var firstName="joy";
 var lastName='jonas';
 
 //Quotes in string
+//double quotes
 
 var str="I am \"double quoted\" string inside \"double quotes\"";
 
