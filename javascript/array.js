@@ -5,7 +5,7 @@ console.log(array[0]);
 //nested array
 var ourArray=[["priya",20],["prachi",23],[10,20]];
 
-
+console.log("1st position array length="+ourArray[0].length);
 console.log("first array element="+ourArray[0][0]);
 
 //modify array
