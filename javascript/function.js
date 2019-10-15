@@ -46,6 +46,7 @@ console.log(nextInLine(arr,5));
 console.log("after fun call array is= "+JSON.stringify(arr));
 
 //return boolean value
+console.log("\n...............return boolean value....................");
 function fun3(isThatTrue){ // pass var as true error identify reffrence
 if(isThatTrue){
     return "yes ,its true";
@@ -57,6 +58,7 @@ else{
 }
 console.log("value is = "+fun3(true));
 
+console.log("\n...............check equality....................");
 //equality
 function fun4(value){ // pass var as true error identify reffrence
     if(value==12){
@@ -70,6 +72,7 @@ function fun4(value){ // pass var as true error identify reffrence
     console.log(fun4('12'));
 
 //strict equlity
+console.log("\n...............strict equlity....................");
     function fun5(value){ // pass var as true error identify reffrence
         if(value===12){
             return "strictly Equals";
@@ -80,4 +83,18 @@ function fun4(value){ // pass var as true error identify reffrence
         }
         console.log(fun5(12));
         console.log(fun5('12'));
+
+       //inequality operator
+       console.log("\n...............inequality operator....................");
+       function fun6(value){ // pass var as true error identify reffrence
+        if(value!=20){
+            return "values is not Equals";
+        }
+        else{
+            return "value is equal equals";
+        }
+        }
+        console.log(fun5(20));
+        console.log(fun5(22));
+        
     
