@@ -1,9 +1,9 @@
-function numberToWord(n, custom_join_character) {
+function numberToWord(n) {
 
     var string = n.toString(),
         units, tens, scales, start, end, chunks, chunksLen, chunk, ints, i, word, words;
 
-    var and = custom_join_character || 'and';
+    var and =  'and';
 
     /* Is number zero? */
     if (parseInt(string) === 0) {
